@@ -38,7 +38,7 @@ float Voltage_ReadRegister(){
     voltage = temp_b *1.25;
     I2C_Master_Stop();//Stop condition
     voltage = voltage/1000;
-    __delay_ms(300);
+    //__delay_ms(300);
     __delay_ms(600);
     return voltage;
 }
@@ -54,7 +54,7 @@ float Current_ReadRegister(){
     current = temp_d *1.25;
     I2C_Master_Stop();          //Stop condition
     current = current/1000;
-    __delay_ms(300);
+    //__delay_ms(300);
     __delay_ms(600);
     return current;
 }
@@ -70,7 +70,7 @@ float Power_ReadRegister(){
     power = temp_f *10;
     I2C_Master_Stop();          //Stop condition
     power = power/1000;
-    __delay_ms(300);
+    //__delay_ms(300);
     __delay_ms(600);
     return power;
 }

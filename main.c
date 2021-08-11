@@ -52,6 +52,18 @@ char power_str[6];
 float Voltage;
 float Current;
 float Power;
+
+static const unsigned char IPL[] = {
+// 'estg_v_branco', 64x64px
+0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
+0x03, 0xff, 0xff, 0xc0, 0x03, 0xff, 0xff, 0xc0, 0x03, 0xfc, 0x3f, 0xc0, 0x03, 0xf3, 0xcf, 0xc0,
+0x03, 0xef, 0xf3, 0xc0, 0x03, 0xdf, 0xfb, 0xc0, 0x03, 0xdb, 0xfb, 0xc0, 0x03, 0xcf, 0xf3, 0xc0,
+0x03, 0xe7, 0xe7, 0xc0, 0x03, 0xf8, 0x1f, 0xc0, 0x03, 0xff, 0xff, 0xc0, 0x03, 0xff, 0xff, 0xc0,
+0x03, 0xff, 0xff, 0xc0, 0x00, 0x01, 0x00, 0x00, 0x03, 0xef, 0xff, 0xc0, 0x02, 0xff, 0xff, 0xc0,
+0x00, 0x3f, 0xe0, 0x00, 0x03, 0xbf, 0xe0, 0x00, 0x00, 0x00, 0x00, 0x00, 0x03, 0xe3, 0xfc, 0x00,
+0x03, 0xff, 0x7c, 0x00, 0x02, 0xff, 0xe0, 0x00, 0x00, 0x08, 0x00, 0x00, 0x03, 0xfc, 0x00, 0x00,
+0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+};
 /*
                          Main application
  */
@@ -76,17 +88,19 @@ void main(void)
     // Disable the Peripheral Interrupts
     //INTERRUPT_PeripheralInterruptDisable();
     I2C_Initialize();
-    //EUSART1_Initialize();
     
     Oled_Init();
     Oled_Clear();
     Oled_SelectPage(0); 
-    Oled_WriteString("OI");
-    Oled_Clear();
+    Oled_WriteString("      IPL-ESTG ");
+     __delay_ms(2000);
     Oled_SelectPage(1);
-    Oled_WriteString("OLA");  
-    
-    __delay_ms(600);
+    Oled_WriteString("  Conducao autonoma ");
+     __delay_ms(2000);
+    Oled_Clear();
+    //OLEDWriteLargeCharacter("IPL");
+    //OLED_Image(IPL);
+
     
     I2C_Master_Init(400000);
     while (1)
@@ -97,20 +111,25 @@ void main(void)
        sprintf(voltage_str, "%.2f",Voltage);
        sprintf(current_str, "%.2f",Current);
        sprintf(power_str, "%.2f",Power);
-       __delay_ms(600);
-       Oled_Clear();
+       //__delay_ms(600);
        Oled_SelectPage(0);
-       Oled_WriteString("Tensao: ");
-       Oled_WriteString(voltage_str);
+       Oled_WriteString("    Bateria 7.4V ");
        __delay_ms(600);
        Oled_SelectPage(1);
-       Oled_WriteString("Corrente: ");
-       Oled_WriteString(current_str); 
+       Oled_WriteString("Tensao: ");
+       Oled_WriteString(voltage_str);
+       Oled_WriteString(" V");
        __delay_ms(600);
        Oled_SelectPage(2);
+       Oled_WriteString("Corrente: ");
+       Oled_WriteString(current_str); 
+       Oled_WriteString(" A");
+       __delay_ms(600);
+       Oled_SelectPage(3);
        Oled_WriteString("Potencia: ");
        Oled_WriteString(power_str);
-       __delay_ms(6000);
+       Oled_WriteString(" W");
+       __delay_ms(5000);
        Oled_Clear();
        I2C_Master_Init(400000);
     }

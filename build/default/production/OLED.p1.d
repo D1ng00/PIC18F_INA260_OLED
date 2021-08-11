@@ -8,4 +8,5 @@ mcc_generated_files/memory.h  \
 mcc_generated_files/eusart1.h  \
 OLED.h  \
 mcc_generated_files/examples/i2c_master_example.h  \
+INA260.h  \
 font.h 

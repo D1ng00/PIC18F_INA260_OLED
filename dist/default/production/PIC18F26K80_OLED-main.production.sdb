@@ -3,22 +3,22 @@
 [d edition pro ]
 [d chip 18F26K80 ]
 [d frameptr 4065 ]
-"67 C:\Users\diogo\Downloads\PIC18F26K80_OLED-main\mcc_generated_files/examples/i2c_master_example.c
-[e E353 . `uc
+"67 C:\Users\D1NG0\Desktop\PIC18F26K80_OLED-main\mcc_generated_files/examples/i2c_master_example.c
+[e E355 . `uc
 I2C_NOERR 0
 I2C_BUSY 1
 I2C_FAIL 2
 ]
 "68
-[e E358 . `uc
+[e E360 . `uc
 I2C_STOP_ 1
 I2C_RESTART_READ 2
 I2C_RESTART_WRITE 3
 I2C_CONTINUE 4
 I2C_RESET_LINK 5
 ]
-"146 C:\Users\diogo\Downloads\PIC18F26K80_OLED-main\mcc_generated_files/i2c_master.c
-[e E12575 . `uc
+"146 C:\Users\D1NG0\Desktop\PIC18F26K80_OLED-main\mcc_generated_files/i2c_master.c
+[e E12577 . `uc
 I2C_IDLE 0
 I2C_SEND_ADR_READ 1
 I2C_SEND_ADR_WRITE 2
@@ -37,20 +37,20 @@ I2C_RESET 14
 I2C_ADDRESS_NACK 15
 ]
 "165
-[e E358 . `uc
+[e E360 . `uc
 I2C_STOP_ 1
 I2C_RESTART_READ 2
 I2C_RESTART_WRITE 3
 I2C_CONTINUE 4
 I2C_RESET_LINK 5
 ]
-[e E353 . `uc
+[e E355 . `uc
 I2C_NOERR 0
 I2C_BUSY 1
 I2C_FAIL 2
 ]
 "191
-[e E12593 . `uc
+[e E12595 . `uc
 I2C_DATA_COMPLETE 0
 I2C_WRITE_COLLISION 1
 I2C_ADDR_NACK 2
@@ -58,83 +58,88 @@ I2C_DATA_NACK 3
 I2C_TIMEOUT 4
 I2C_NULL 5
 ]
-"4 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\__fpclassifyf.c
+"211 C:\Users\D1NG0\Desktop\PIC18F26K80_OLED-main\OLED.c
+[e E12683 . `uc
+Black 0
+White 1
+]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\__fpclassifyf.c
 [v ___fpclassifyf __fpclassifyf `(i  1 e 2 0 ]
-"7 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\__lldiv.c
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\__lldiv.c
 [v ___lldiv __lldiv `(ul  1 e 4 0 ]
-"4 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\atoi.c
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\atoi.c
 [v _atoi atoi `(i  1 e 2 0 ]
-"7 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\awdiv.c
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
 [v ___awdiv __awdiv `(i  1 e 2 0 ]
-"7 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\awmod.c
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awmod.c
 [v ___awmod __awmod `(i  1 e 2 0 ]
-"72 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
+"72 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
 [v _pad pad `(i  1 s 2 pad ]
-"319
+"332
 [v _efgtoa efgtoa `(i  1 s 2 efgtoa ]
-"670
+"692
 [v _vfpfcnvrt vfpfcnvrt `(i  1 s 2 vfpfcnvrt ]
-"1368
+"1390
 [v _vfprintf vfprintf `(i  1 e 2 0 ]
-"4 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\fleq.c
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\fleq.c
 [v ___fleq __fleq `(b  1 e 0 0 ]
-"4 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\flge.c
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\flge.c
 [v ___flge __flge `(b  1 e 0 0 ]
-"15 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\flneg.c
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\flneg.c
 [v ___flneg __flneg `(d  1 e 4 0 ]
-"62 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\float.c
+"62 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\float.c
 [v ___ftpack __ftpack `(f  1 e 4 0 ]
-"3 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\floorf.c
+"3 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\floorf.c
 [v _floorf floorf `(f  1 e 4 0 ]
-"43 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\fltol.c
+"43 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\fltol.c
 [v ___fltol __fltol `(l  1 e 4 0 ]
-"86 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\ftadd.c
+"86 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftadd.c
 [v ___ftadd __ftadd `(f  1 e 4 0 ]
-"54 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\ftdiv.c
+"54 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftdiv.c
 [v ___ftdiv __ftdiv `(f  1 e 4 0 ]
-"62 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\ftmul.c
+"62 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftmul.c
 [v ___ftmul __ftmul `(f  1 e 4 0 ]
-"19 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\ftsub.c
+"19 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftsub.c
 [v ___ftsub __ftsub `(f  1 e 4 0 ]
-"5 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\isdigit.c
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\isdigit.c
 [v _isdigit isdigit `(i  1 e 2 0 ]
-"5 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\isspace.c
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\isspace.c
 [v _isspace isspace `(i  1 e 2 0 ]
-"5 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\isupper.c
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\isupper.c
 [v _isupper isupper `(i  1 e 2 0 ]
-"8 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\nf_fputc.c
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputc.c
 [v _fputc fputc `(i  1 e 2 0 ]
-"8 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\nf_fputs.c
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputs.c
 [v _fputs fputs `(i  1 e 2 0 ]
-"9 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\nf_sprintf.c
+"9 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_sprintf.c
 [v _sprintf sprintf `(i  1 e 2 0 ]
-"7 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\putch.c
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\putch.c
 [v _putch putch `(v  1 e 1 0 ]
-"10 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\sprcadd.c
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcadd.c
 [v ___fladd __fladd `(d  1 e 4 0 ]
 "245
 [v ___flsub __flsub `(d  1 e 4 0 ]
-"11 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\sprcdiv.c
+"11 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcdiv.c
 [v ___fldiv __fldiv `(d  1 e 4 0 ]
-"8 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\sprcmul.c
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
 [v ___flmul __flmul `(d  1 e 4 0 ]
-"3 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\strcpy.c
+"3 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\strcpy.c
 [v _strcpy strcpy `(*.39uc  1 e 2 0 ]
-"5 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\strlen.c
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\strlen.c
 [v _strlen strlen `(ui  1 e 2 0 ]
-"3 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\strncmp.c
+"3 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\strncmp.c
 [v _strncmp strncmp `(i  1 e 2 0 ]
-"4 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\tolower.c
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\tolower.c
 [v _tolower tolower `(i  1 e 2 0 ]
-"15 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\Umul16.c
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul16.c
 [v ___wmul __wmul `(ui  1 e 2 0 ]
-"15 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\Umul32.c
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul32.c
 [v ___lmul __lmul `(ul  1 e 4 0 ]
-"91 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\Umul64.c
+"91 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul64.c
 [v ___omul __omul `(uo  1 e 8 0 ]
-"10 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\xxtofl.c
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\xxtofl.c
 [v ___xxtofl __xxtofl `(d  1 e 4 0 ]
-"30 C:\Users\diogo\Downloads\PIC18F26K80_OLED-main\INA260.c
+"30 C:\Users\D1NG0\Desktop\PIC18F26K80_OLED-main\INA260.c
 [v _Voltage_ReadRegister Voltage_ReadRegister `(f  1 e 4 0 ]
 "46
 [v _Current_ReadRegister Current_ReadRegister `(f  1 e 4 0 ]
@@ -154,9 +159,9 @@ I2C_NULL 5
 [v _I2C_Master_Read I2C_Master_Read `(us  1 e 2 0 ]
 "118
 [v _I2C_Master_Init I2C_Master_Init `(v  1 e 1 0 ]
-"58 C:\Users\diogo\Downloads\PIC18F26K80_OLED-main\main.c
+"70 C:\Users\D1NG0\Desktop\PIC18F26K80_OLED-main\main.c
 [v _main main `(v  1 e 1 0 ]
-"144 C:\Users\diogo\Downloads\PIC18F26K80_OLED-main\mcc_generated_files/eusart1.c
+"144 C:\Users\D1NG0\Desktop\PIC18F26K80_OLED-main\mcc_generated_files/eusart1.c
 [v _EUSART1_DefaultFramingErrorHandler EUSART1_DefaultFramingErrorHandler `(v  1 e 1 0 ]
 "146
 [v _EUSART1_DefaultOverrunErrorHandler EUSART1_DefaultOverrunErrorHandler `(v  1 e 1 0 ]
@@ -168,30 +173,30 @@ I2C_NULL 5
 [v _EUSART1_SetOverrunErrorHandler EUSART1_SetOverrunErrorHandler `(v  1 e 1 0 ]
 "165
 [v _EUSART1_SetErrorHandler EUSART1_SetErrorHandler `(v  1 e 1 0 ]
-"111 C:\Users\diogo\Downloads\PIC18F26K80_OLED-main\mcc_generated_files/examples/i2c_master_example.c
+"111 C:\Users\D1NG0\Desktop\PIC18F26K80_OLED-main\mcc_generated_files/examples/i2c_master_example.c
 [v _I2C_WriteNBytes I2C_WriteNBytes `(v  1 e 1 0 ]
 "142
-[v _rd1RegCompleteHandler rd1RegCompleteHandler `(E358  1 s 1 rd1RegCompleteHandler ]
+[v _rd1RegCompleteHandler rd1RegCompleteHandler `(E360  1 s 1 rd1RegCompleteHandler ]
 "149
-[v _rd2RegCompleteHandler rd2RegCompleteHandler `(E358  1 s 1 rd2RegCompleteHandler ]
+[v _rd2RegCompleteHandler rd2RegCompleteHandler `(E360  1 s 1 rd2RegCompleteHandler ]
 "156
-[v _wr1RegCompleteHandler wr1RegCompleteHandler `(E358  1 s 1 wr1RegCompleteHandler ]
+[v _wr1RegCompleteHandler wr1RegCompleteHandler `(E360  1 s 1 wr1RegCompleteHandler ]
 "163
-[v _wr2RegCompleteHandler wr2RegCompleteHandler `(E358  1 s 1 wr2RegCompleteHandler ]
+[v _wr2RegCompleteHandler wr2RegCompleteHandler `(E360  1 s 1 wr2RegCompleteHandler ]
 "170
-[v _rdBlkRegCompleteHandler rdBlkRegCompleteHandler `(E358  1 s 1 rdBlkRegCompleteHandler ]
-"167 C:\Users\diogo\Downloads\PIC18F26K80_OLED-main\mcc_generated_files/i2c_master.c
+[v _rdBlkRegCompleteHandler rdBlkRegCompleteHandler `(E360  1 s 1 rdBlkRegCompleteHandler ]
+"167 C:\Users\D1NG0\Desktop\PIC18F26K80_OLED-main\mcc_generated_files/i2c_master.c
 [v _I2C_Initialize I2C_Initialize `(v  1 e 1 0 ]
 "176
-[v _I2C_Open I2C_Open `(E353  1 e 1 0 ]
+[v _I2C_Open I2C_Open `(E355  1 e 1 0 ]
 "209
-[v _I2C_Close I2C_Close `(E353  1 e 1 0 ]
+[v _I2C_Close I2C_Close `(E355  1 e 1 0 ]
 "224
-[v _I2C_MasterOperation I2C_MasterOperation `(E353  1 e 1 0 ]
+[v _I2C_MasterOperation I2C_MasterOperation `(E355  1 e 1 0 ]
 "246
-[v _I2C_MasterRead I2C_MasterRead `(E353  1 e 1 0 ]
+[v _I2C_MasterRead I2C_MasterRead `(E355  1 e 1 0 ]
 "251
-[v _I2C_MasterWrite I2C_MasterWrite `(E353  1 e 1 0 ]
+[v _I2C_MasterWrite I2C_MasterWrite `(E355  1 e 1 0 ]
 "263
 [v _I2C_SetBuffer I2C_SetBuffer `(v  1 e 1 0 ]
 "273
@@ -205,41 +210,41 @@ I2C_NULL 5
 "321
 [v _I2C_MasterFsm I2C_MasterFsm `T(v  1 s 1 I2C_MasterFsm ]
 "333
-[v _I2C_DO_IDLE I2C_DO_IDLE `(E12575  1 s 1 I2C_DO_IDLE ]
+[v _I2C_DO_IDLE I2C_DO_IDLE `(E12577  1 s 1 I2C_DO_IDLE ]
 "340
-[v _I2C_DO_SEND_ADR_READ I2C_DO_SEND_ADR_READ `(E12575  1 s 1 I2C_DO_SEND_ADR_READ ]
+[v _I2C_DO_SEND_ADR_READ I2C_DO_SEND_ADR_READ `(E12577  1 s 1 I2C_DO_SEND_ADR_READ ]
 "347
-[v _I2C_DO_SEND_ADR_WRITE I2C_DO_SEND_ADR_WRITE `(E12575  1 s 1 I2C_DO_SEND_ADR_WRITE ]
+[v _I2C_DO_SEND_ADR_WRITE I2C_DO_SEND_ADR_WRITE `(E12577  1 s 1 I2C_DO_SEND_ADR_WRITE ]
 "354
-[v _I2C_DO_TX I2C_DO_TX `(E12575  1 s 1 I2C_DO_TX ]
+[v _I2C_DO_TX I2C_DO_TX `(E12577  1 s 1 I2C_DO_TX ]
 "378
-[v _I2C_DO_RX I2C_DO_RX `(E12575  1 s 1 I2C_DO_RX ]
+[v _I2C_DO_RX I2C_DO_RX `(E12577  1 s 1 I2C_DO_RX ]
 "402
-[v _I2C_DO_RCEN I2C_DO_RCEN `(E12575  1 s 1 I2C_DO_RCEN ]
+[v _I2C_DO_RCEN I2C_DO_RCEN `(E12577  1 s 1 I2C_DO_RCEN ]
 "409
-[v _I2C_DO_TX_EMPTY I2C_DO_TX_EMPTY `(E12575  1 s 1 I2C_DO_TX_EMPTY ]
+[v _I2C_DO_TX_EMPTY I2C_DO_TX_EMPTY `(E12577  1 s 1 I2C_DO_TX_EMPTY ]
 "450
-[v _I2C_DO_SEND_RESTART_READ I2C_DO_SEND_RESTART_READ `(E12575  1 s 1 I2C_DO_SEND_RESTART_READ ]
+[v _I2C_DO_SEND_RESTART_READ I2C_DO_SEND_RESTART_READ `(E12577  1 s 1 I2C_DO_SEND_RESTART_READ ]
 "456
-[v _I2C_DO_SEND_RESTART_WRITE I2C_DO_SEND_RESTART_WRITE `(E12575  1 s 1 I2C_DO_SEND_RESTART_WRITE ]
+[v _I2C_DO_SEND_RESTART_WRITE I2C_DO_SEND_RESTART_WRITE `(E12577  1 s 1 I2C_DO_SEND_RESTART_WRITE ]
 "463
-[v _I2C_DO_SEND_RESTART I2C_DO_SEND_RESTART `(E12575  1 s 1 I2C_DO_SEND_RESTART ]
+[v _I2C_DO_SEND_RESTART I2C_DO_SEND_RESTART `(E12577  1 s 1 I2C_DO_SEND_RESTART ]
 "469
-[v _I2C_DO_SEND_STOP I2C_DO_SEND_STOP `(E12575  1 s 1 I2C_DO_SEND_STOP ]
+[v _I2C_DO_SEND_STOP I2C_DO_SEND_STOP `(E12577  1 s 1 I2C_DO_SEND_STOP ]
 "475
-[v _I2C_DO_RX_ACK I2C_DO_RX_ACK `(E12575  1 s 1 I2C_DO_RX_ACK ]
+[v _I2C_DO_RX_ACK I2C_DO_RX_ACK `(E12577  1 s 1 I2C_DO_RX_ACK ]
 "482
-[v _I2C_DO_RX_NACK_STOP I2C_DO_RX_NACK_STOP `(E12575  1 s 1 I2C_DO_RX_NACK_STOP ]
+[v _I2C_DO_RX_NACK_STOP I2C_DO_RX_NACK_STOP `(E12577  1 s 1 I2C_DO_RX_NACK_STOP ]
 "488
-[v _I2C_DO_RX_NACK_RESTART I2C_DO_RX_NACK_RESTART `(E12575  1 s 1 I2C_DO_RX_NACK_RESTART ]
+[v _I2C_DO_RX_NACK_RESTART I2C_DO_RX_NACK_RESTART `(E12577  1 s 1 I2C_DO_RX_NACK_RESTART ]
 "494
-[v _I2C_DO_RESET I2C_DO_RESET `(E12575  1 s 1 I2C_DO_RESET ]
+[v _I2C_DO_RESET I2C_DO_RESET `(E12577  1 s 1 I2C_DO_RESET ]
 "500
-[v _I2C_DO_ADDRESS_NACK I2C_DO_ADDRESS_NACK `(E12575  1 s 1 I2C_DO_ADDRESS_NACK ]
+[v _I2C_DO_ADDRESS_NACK I2C_DO_ADDRESS_NACK `(E12577  1 s 1 I2C_DO_ADDRESS_NACK ]
 "520
-[v _I2C_CallbackReturnStop I2C_CallbackReturnStop `(E358  1 e 1 0 ]
+[v _I2C_CallbackReturnStop I2C_CallbackReturnStop `(E360  1 e 1 0 ]
 "525
-[v _I2C_CallbackReturnReset I2C_CallbackReturnReset `(E358  1 e 1 0 ]
+[v _I2C_CallbackReturnReset I2C_CallbackReturnReset `(E360  1 e 1 0 ]
 "543
 [v _I2C_MasterOpen I2C_MasterOpen `T(a  1 s 1 I2C_MasterOpen ]
 "557
@@ -276,35 +281,37 @@ I2C_NULL 5
 [v _I2C_MasterSetIrq I2C_MasterSetIrq `T(v  1 s 1 I2C_MasterSetIrq ]
 "650
 [v _I2C_MasterWaitForEvent I2C_MasterWaitForEvent `T(v  1 s 1 I2C_MasterWaitForEvent ]
-"50 C:\Users\diogo\Downloads\PIC18F26K80_OLED-main\mcc_generated_files/mcc.c
+"50 C:\Users\D1NG0\Desktop\PIC18F26K80_OLED-main\mcc_generated_files/mcc.c
 [v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
 "58
 [v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
-"59 C:\Users\diogo\Downloads\PIC18F26K80_OLED-main\mcc_generated_files/memory.c
+"59 C:\Users\D1NG0\Desktop\PIC18F26K80_OLED-main\mcc_generated_files/memory.c
 [v _FLASH_ReadByte FLASH_ReadByte `(uc  1 e 1 0 ]
 "94
 [v _FLASH_WriteBlock FLASH_WriteBlock `(c  1 e 1 0 ]
 "150
 [v _FLASH_EraseBlock FLASH_EraseBlock `(v  1 e 1 0 ]
-"55 C:\Users\diogo\Downloads\PIC18F26K80_OLED-main\mcc_generated_files/pin_manager.c
+"55 C:\Users\D1NG0\Desktop\PIC18F26K80_OLED-main\mcc_generated_files/pin_manager.c
 [v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
-"29 C:\Users\diogo\Downloads\PIC18F26K80_OLED-main\OLED.c
+"33 C:\Users\D1NG0\Desktop\PIC18F26K80_OLED-main\OLED.c
 [v _Oled_Command Oled_Command `(v  1 e 1 0 ]
-"42
+"46
 [v _Oled_Data Oled_Data `(v  1 e 1 0 ]
-"55
+"59
 [v _Oled_Init Oled_Init `(v  1 e 1 0 ]
-"87
+"91
 [v _Oled_WriteString Oled_WriteString `(v  1 e 1 0 ]
-"93
+"97
 [v _Oled_WriteCharacter Oled_WriteCharacter `(v  1 e 1 0 ]
-"105
+"109
 [v _Oled_Clear Oled_Clear `(v  1 e 1 0 ]
-"138
+"142
 [v _Oled_SelectPage Oled_SelectPage `(v  1 e 1 0 ]
-"16 C:\Users\diogo\Downloads\PIC18F26K80_OLED-main/font.h
+"191
+[v _OLEDWriteLargeCharacter OLEDWriteLargeCharacter `(v  1 e 1 0 ]
+"16 C:\Users\D1NG0\Desktop\PIC18F26K80_OLED-main/font.h
 [v _ASCII ASCII `C[96][5]uc  1 e 480 0 ]
-"26860 C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f26k80.h
+"26860 C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f26k80.h
 [v _WPUB WPUB `VEuc  1 e 1 @3931 ]
 "26922
 [v _ANCON1 ANCON1 `VEuc  1 e 1 @3932 ]
@@ -695,7 +702,7 @@ I2C_NULL 5
 [v _TRISC3 TRISC3 `VEb  1 e 0 @31907 ]
 "44282
 [v _TRISC4 TRISC4 `VEb  1 e 0 @31908 ]
-"55 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
+"55 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
 [v _flags flags `i  1 s 2 flags ]
 [v _prec prec `i  1 s 2 prec ]
 [v _width width `i  1 s 2 width ]
@@ -703,13 +710,13 @@ I2C_NULL 5
 [v _dbuf dbuf `[80]uc  1 s 80 dbuf ]
 "69
 [v _nout nout `i  1 s 2 nout ]
-"23 C:\Users\diogo\Downloads\PIC18F26K80_OLED-main\INA260.c
+"23 C:\Users\D1NG0\Desktop\PIC18F26K80_OLED-main\INA260.c
 [v _voltage voltage `f  1 e 4 0 ]
 "24
 [v _current current `f  1 e 4 0 ]
 "25
 [v _power power `f  1 e 4 0 ]
-"49 C:\Users\diogo\Downloads\PIC18F26K80_OLED-main\main.c
+"49 C:\Users\D1NG0\Desktop\PIC18F26K80_OLED-main\main.c
 [v _voltage_str voltage_str `[6]uc  1 e 6 0 ]
 "50
 [v _current_str current_str `[6]uc  1 e 6 0 ]
@@ -726,7 +733,7 @@ I2C_NULL 5
 `uc 1 oerr 1 0 :1:2 
 `uc 1 reserved 1 0 :5:3 
 ]
-"52 C:\Users\diogo\Downloads\PIC18F26K80_OLED-main\mcc_generated_files/eusart1.c
+"52 C:\Users\D1NG0\Desktop\PIC18F26K80_OLED-main\mcc_generated_files/eusart1.c
 [u S1168 . 1 `S1163 1 . 1 0 `uc 1 status 1 0 ]
 [v _eusart1RxLastError eusart1RxLastError `VES1168  1 e 1 0 ]
 "58
@@ -735,61 +742,65 @@ I2C_NULL 5
 [v _EUSART1_OverrunErrorHandler EUSART1_OverrunErrorHandler `*.37(v  1 e 2 0 ]
 "60
 [v _EUSART1_ErrorHandler EUSART1_ErrorHandler `*.37(v  1 e 2 0 ]
-"146 C:\Users\diogo\Downloads\PIC18F26K80_OLED-main\mcc_generated_files/i2c_master.c
-[v _i2c_fsmStateTable i2c_fsmStateTable `C[16]*.37(E12575  1 e 32 0 ]
-[s S379 . 36 `[6]*.37(E358 1 callbackTable 12 0 `[6]*.39v 1 callbackPayload 12 12 `us 1 time_out 2 24 `us 1 time_out_value 2 26 `uc 1 address 1 28 `*.39uc 1 data_ptr 2 29 `ui 1 data_length 2 31 `E12575 1 state 1 33 `E353 1 error 1 34 `uc 1 addressNackCheck 1 35 :1:0 
+"146 C:\Users\D1NG0\Desktop\PIC18F26K80_OLED-main\mcc_generated_files/i2c_master.c
+[v _i2c_fsmStateTable i2c_fsmStateTable `C[16]*.37(E12577  1 e 32 0 ]
+[s S379 . 36 `[6]*.37(E360 1 callbackTable 12 0 `[6]*.39v 1 callbackPayload 12 12 `us 1 time_out 2 24 `us 1 time_out_value 2 26 `uc 1 address 1 28 `*.39uc 1 data_ptr 2 29 `ui 1 data_length 2 31 `E12577 1 state 1 33 `E355 1 error 1 34 `uc 1 addressNackCheck 1 35 :1:0 
 `uc 1 busy 1 35 :1:1 
 `uc 1 inUse 1 35 :1:2 
 `uc 1 bufferFree 1 35 :1:3 
 ]
 "165
 [v _I2C_Status I2C_Status `S379  1 e 36 0 ]
-"58 C:\Users\diogo\Downloads\PIC18F26K80_OLED-main\main.c
+"20 C:\Users\D1NG0\Desktop\PIC18F26K80_OLED-main\OLED.c
+[v _SSD1306_Buffer SSD1306_Buffer `[1024]uc  1 s 1024 SSD1306_Buffer ]
+"21
+[v _buffer buffer `[1024]uc  1 s 1024 buffer ]
+"70 C:\Users\D1NG0\Desktop\PIC18F26K80_OLED-main\main.c
 [v _main main `(v  1 e 1 0 ]
 {
-"117
+"131
 } 0
-"9 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\nf_sprintf.c
+"9 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_sprintf.c
 [v _sprintf sprintf `(i  1 e 2 0 ]
 {
-[s S2029 _IO_FILE 6 `*.39uc 1 buffer 2 0 `i 1 count 2 2 `i 1 limit 2 4 ]
+[s S2055 _IO_FILE 6 `*.39uc 1 buffer 2 0 `i 1 count 2 2 `i 1 limit 2 4 ]
 "13
-[v sprintf@f f `S2029  1 a 6 74 ]
+[v sprintf@f f `S2055  1 a 6 72 ]
 "12
-[v sprintf@ap ap `[1]*.39v  1 a 2 72 ]
+[v sprintf@ap ap `[1]*.39v  1 a 2 70 ]
 "9
 [v sprintf@s s `*.39uc  1 p 2 62 ]
 [v sprintf@fmt fmt `*.32Cuc  1 p 2 64 ]
 "23
 } 0
-"1368 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
+"1390 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
 [v _vfprintf vfprintf `(i  1 e 2 0 ]
 {
-"1371
+"1393
 [v vfprintf@cfmt cfmt `*.32uc  1 a 2 91 ]
-[s S2055 _IO_FILE 0 ]
-"1368
-[v vfprintf@fp fp `*.39S2055  1 p 2 56 ]
+[s S2081 _IO_FILE 0 ]
+"1390
+[v vfprintf@fp fp `*.39S2081  1 p 2 56 ]
 [v vfprintf@fmt fmt `*.32Cuc  1 p 2 58 ]
 [v vfprintf@ap ap `*.39*.39v  1 p 2 60 ]
-"1382
+"1404
 } 0
-"670
+"692
 [v _vfpfcnvrt vfpfcnvrt `(i  1 s 2 vfpfcnvrt ]
 {
-"676
+"698
 [v vfpfcnvrt@f f `d  1 a 4 83 ]
-"672
+"694
 [v vfpfcnvrt@ct ct `[3]uc  1 a 3 87 ]
 [v vfpfcnvrt@c c `uc  1 a 1 90 ]
-[s S2055 _IO_FILE 0 ]
-"670
-[v vfpfcnvrt@fp fp `*.39S2055  1 p 2 69 ]
+[s S2081 _IO_FILE 0 ]
+"692
+[v vfpfcnvrt@fp fp `*.39S2081  1 p 2 69 ]
 [v vfpfcnvrt@fmt fmt `*.39*.32uc  1 p 2 71 ]
 [v vfpfcnvrt@ap ap `*.39*.39v  1 p 2 73 ]
-"1365
+"1387
 } 0
-"3 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\strncmp.c
+"3 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\strncmp.c
 [v _strncmp strncmp `(i  1 e 2 0 ]
 {
 "5
@@ -801,50 +812,50 @@ I2C_NULL 5
 [v strncmp@n n `ui  1 p 2 4 ]
 "9
 } 0
-"319 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
+"332 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
 [v _efgtoa efgtoa `(i  1 s 2 efgtoa ]
 {
-"323
+"336
 [v efgtoa@u u `d  1 a 4 52 ]
 [v efgtoa@g g `d  1 a 4 44 ]
 [v efgtoa@l l `d  1 a 4 38 ]
 [v efgtoa@h h `d  1 a 4 34 ]
-[v efgtoa@ou ou `d  1 a 4 0 ]
-"322
+[v efgtoa@ou ou `d  1 a 4 20 ]
+"335
 [v efgtoa@n n `i  1 a 2 50 ]
 [v efgtoa@e e `i  1 a 2 48 ]
 [v efgtoa@i i `i  1 a 2 42 ]
-[v efgtoa@w w `i  1 a 2 31 ]
+[v efgtoa@w w `i  1 a 2 30 ]
 [v efgtoa@p p `i  1 a 2 28 ]
 [v efgtoa@sign sign `i  1 a 2 26 ]
 [v efgtoa@d d `i  1 a 2 24 ]
-[v efgtoa@ne ne `i  1 a 2 22 ]
-[v efgtoa@m m `i  1 a 2 20 ]
-[v efgtoa@pp pp `i  1 a 2 18 ]
-[v efgtoa@t t `i  1 a 2 16 ]
-"321
+[v efgtoa@m m `i  1 a 2 18 ]
+[v efgtoa@ne ne `i  1 a 2 16 ]
+[v efgtoa@pp pp `i  1 a 2 14 ]
+[v efgtoa@t t `i  1 a 2 12 ]
+"334
 [v efgtoa@mode mode `uc  1 a 1 33 ]
-[v efgtoa@nmode nmode `uc  1 a 1 30 ]
-[s S2055 _IO_FILE 0 ]
-"319
-[v efgtoa@fp fp `*.39S2055  1 p 2 57 ]
+[v efgtoa@nmode nmode `uc  1 a 1 32 ]
+[s S2081 _IO_FILE 0 ]
+"332
+[v efgtoa@fp fp `*.39S2081  1 p 2 57 ]
 [v efgtoa@f f `d  1 p 4 59 ]
 [v efgtoa@c c `uc  1 p 1 63 ]
-"503
+"525
 } 0
-"4 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\tolower.c
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\tolower.c
 [v _tolower tolower `(i  1 e 2 0 ]
 {
 [v tolower@c c `i  1 p 2 6 ]
 "8
 } 0
-"5 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\isupper.c
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\isupper.c
 [v _isupper isupper `(i  1 e 2 0 ]
 {
 [v isupper@c c `i  1 p 2 0 ]
 "8
 } 0
-"3 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\strcpy.c
+"3 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\strcpy.c
 [v _strcpy strcpy `(*.39uc  1 e 2 0 ]
 {
 "6
@@ -856,20 +867,20 @@ I2C_NULL 5
 [v strcpy@src src `*.34Cuc  1 p 2 2 ]
 "9
 } 0
-"72 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
+"72 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
 [v _pad pad `(i  1 s 2 pad ]
 {
 "74
 [v pad@w w `i  1 a 2 25 ]
 [v pad@i i `i  1 a 2 23 ]
-[s S2055 _IO_FILE 0 ]
+[s S2081 _IO_FILE 0 ]
 "72
-[v pad@fp fp `*.39S2055  1 p 2 16 ]
+[v pad@fp fp `*.39S2081  1 p 2 16 ]
 [v pad@buf buf `*.39uc  1 p 2 18 ]
 [v pad@p p `i  1 p 2 20 ]
 "95
 } 0
-"5 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\strlen.c
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\strlen.c
 [v _strlen strlen `(ui  1 e 2 0 ]
 {
 "7
@@ -878,7 +889,7 @@ I2C_NULL 5
 [v strlen@s s `*.39Cuc  1 p 2 0 ]
 "12
 } 0
-"8 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\nf_fputs.c
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputs.c
 [v _fputs fputs `(i  1 e 2 0 ]
 {
 "11
@@ -887,29 +898,29 @@ I2C_NULL 5
 [v fputs@c c `uc  1 a 1 13 ]
 "8
 [v fputs@s s `*.39Cuc  1 p 2 9 ]
-[s S2029 _IO_FILE 6 `*.39uc 1 buffer 2 0 `i 1 count 2 2 `i 1 limit 2 4 ]
-[v fputs@fp fp `*.39S2029  1 p 2 11 ]
+[s S2055 _IO_FILE 6 `*.39uc 1 buffer 2 0 `i 1 count 2 2 `i 1 limit 2 4 ]
+[v fputs@fp fp `*.39S2055  1 p 2 11 ]
 "19
 } 0
-"8 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\nf_fputc.c
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputc.c
 [v _fputc fputc `(i  1 e 2 0 ]
 {
 [v fputc@c c `i  1 p 2 0 ]
-[s S2029 _IO_FILE 6 `*.39uc 1 buffer 2 0 `i 1 count 2 2 `i 1 limit 2 4 ]
-[v fputc@fp fp `*.39S2029  1 p 2 2 ]
-"21
+[s S2055 _IO_FILE 6 `*.39uc 1 buffer 2 0 `i 1 count 2 2 `i 1 limit 2 4 ]
+[v fputc@fp fp `*.39S2055  1 p 2 2 ]
+"24
 } 0
-"7 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\putch.c
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\putch.c
 [v _putch putch `(v  1 e 1 0 ]
 {
 "9
 } 0
-"3 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\floorf.c
+"3 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\floorf.c
 [v _floorf floorf `(f  1 e 4 0 ]
 {
-[u S2196 . 4 `f 1 f 4 0 `ul 1 i 4 0 ]
+[u S2222 . 4 `f 1 f 4 0 `ul 1 i 4 0 ]
 "5
-[v floorf@u u `S2196  1 a 4 41 ]
+[v floorf@u u `S2222  1 a 4 41 ]
 "7
 [v floorf@m m `ul  1 a 4 35 ]
 "6
@@ -917,24 +928,24 @@ I2C_NULL 5
 "3
 [v floorf@x x `f  1 p 4 25 ]
 "4
-[v floorf@F524 F524 `S2196  1 s 4 F524 ]
+[v floorf@F527 F527 `S2222  1 s 4 F527 ]
 "27
 } 0
-"4 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\__fpclassifyf.c
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\__fpclassifyf.c
 [v ___fpclassifyf __fpclassifyf `(i  1 e 2 0 ]
 {
-[u S2196 . 4 `f 1 f 4 0 `ul 1 i 4 0 ]
+[u S2222 . 4 `f 1 f 4 0 `ul 1 i 4 0 ]
 "6
-[v ___fpclassifyf@u u `S2196  1 a 4 10 ]
+[v ___fpclassifyf@u u `S2222  1 a 4 10 ]
 "7
 [v ___fpclassifyf@e e `i  1 a 2 8 ]
 "4
 [v ___fpclassifyf@x x `f  1 p 4 0 ]
 "5
-[v ___fpclassifyf@F463 F463 `S2196  1 s 4 F463 ]
+[v ___fpclassifyf@F465 F465 `S2222  1 s 4 F465 ]
 "11
 } 0
-"43 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\fltol.c
+"43 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\fltol.c
 [v ___fltol __fltol `(l  1 e 4 0 ]
 {
 "45
@@ -944,7 +955,7 @@ I2C_NULL 5
 [v ___fltol@f1 f1 `d  1 p 4 0 ]
 "70
 } 0
-"245 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\sprcadd.c
+"245 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcadd.c
 [v ___flsub __flsub `(d  1 e 4 0 ]
 {
 [v ___flsub@b b `d  1 p 4 45 ]
@@ -967,27 +978,27 @@ I2C_NULL 5
 [v ___fladd@a a `d  1 p 4 4 ]
 "237
 } 0
-"15 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\flneg.c
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\flneg.c
 [v ___flneg __flneg `(d  1 e 4 0 ]
 {
 [v ___flneg@f1 f1 `d  1 p 4 0 ]
 "20
 } 0
-"4 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\flge.c
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\flge.c
 [v ___flge __flge `(b  1 e 0 0 ]
 {
 [v ___flge@ff1 ff1 `d  1 p 4 45 ]
 [v ___flge@ff2 ff2 `d  1 p 4 49 ]
 "19
 } 0
-"4 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\fleq.c
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\fleq.c
 [v ___fleq __fleq `(b  1 e 0 0 ]
 {
 [v ___fleq@ff1 ff1 `d  1 p 4 0 ]
 [v ___fleq@ff2 ff2 `d  1 p 4 4 ]
 "12
 } 0
-"7 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\awmod.c
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awmod.c
 [v ___awmod __awmod `(i  1 e 2 0 ]
 {
 "10
@@ -998,7 +1009,7 @@ I2C_NULL 5
 [v ___awmod@divisor divisor `i  1 p 2 2 ]
 "34
 } 0
-"7 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\awdiv.c
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
 [v ___awdiv __awdiv `(i  1 e 2 0 ]
 {
 "10
@@ -1011,7 +1022,7 @@ I2C_NULL 5
 [v ___awdiv@divisor divisor `i  1 p 2 2 ]
 "41
 } 0
-"4 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\atoi.c
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\atoi.c
 [v _atoi atoi `(i  1 e 2 0 ]
 {
 "6
@@ -1021,19 +1032,19 @@ I2C_NULL 5
 [v atoi@s s `*.32Cuc  1 p 2 7 ]
 "16
 } 0
-"5 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\isspace.c
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\isspace.c
 [v _isspace isspace `(i  1 e 2 0 ]
 {
 [v isspace@c c `i  1 p 2 0 ]
 "8
 } 0
-"5 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\isdigit.c
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\isdigit.c
 [v _isdigit isdigit `(i  1 e 2 0 ]
 {
 [v isdigit@c c `i  1 p 2 0 ]
 "8
 } 0
-"30 C:\Users\diogo\Downloads\PIC18F26K80_OLED-main\INA260.c
+"30 C:\Users\D1NG0\Desktop\PIC18F26K80_OLED-main\INA260.c
 [v _Voltage_ReadRegister Voltage_ReadRegister `(f  1 e 4 0 ]
 {
 "37
@@ -1042,22 +1053,22 @@ I2C_NULL 5
 [v Voltage_ReadRegister@temp_a temp_a `uc  1 a 1 53 ]
 "44
 } 0
-"50 C:\Users\diogo\Downloads\PIC18F26K80_OLED-main\mcc_generated_files/mcc.c
+"50 C:\Users\D1NG0\Desktop\PIC18F26K80_OLED-main\mcc_generated_files/mcc.c
 [v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
 {
 "56
 } 0
-"55 C:\Users\diogo\Downloads\PIC18F26K80_OLED-main\mcc_generated_files/pin_manager.c
+"55 C:\Users\D1NG0\Desktop\PIC18F26K80_OLED-main\mcc_generated_files/pin_manager.c
 [v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
 {
 "94
 } 0
-"58 C:\Users\diogo\Downloads\PIC18F26K80_OLED-main\mcc_generated_files/mcc.c
+"58 C:\Users\D1NG0\Desktop\PIC18F26K80_OLED-main\mcc_generated_files/mcc.c
 [v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
 {
 "68
 } 0
-"62 C:\Users\diogo\Downloads\PIC18F26K80_OLED-main\INA260.c
+"62 C:\Users\D1NG0\Desktop\PIC18F26K80_OLED-main\INA260.c
 [v _Power_ReadRegister Power_ReadRegister `(f  1 e 4 0 ]
 {
 "69
@@ -1066,7 +1077,7 @@ I2C_NULL 5
 [v Power_ReadRegister@temp_e temp_e `uc  1 a 1 33 ]
 "76
 } 0
-"15 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\Umul16.c
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul16.c
 [v ___wmul __wmul `(ui  1 e 2 0 ]
 {
 "17
@@ -1076,71 +1087,71 @@ I2C_NULL 5
 [v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
 "53
 } 0
-"87 C:\Users\diogo\Downloads\PIC18F26K80_OLED-main\OLED.c
+"91 C:\Users\D1NG0\Desktop\PIC18F26K80_OLED-main\OLED.c
 [v _Oled_WriteString Oled_WriteString `(v  1 e 1 0 ]
 {
 [v Oled_WriteString@characters characters `*.34uc  1 p 2 32 ]
-"89
-} 0
 "93
+} 0
+"97
 [v _Oled_WriteCharacter Oled_WriteCharacter `(v  1 e 1 0 ]
 {
 [v Oled_WriteCharacter@character character `uc  1 a 1 wreg ]
-"94
+"98
 [v Oled_WriteCharacter@i i `i  1 a 2 30 ]
-"93
+"97
 [v Oled_WriteCharacter@character character `uc  1 a 1 wreg ]
 [v Oled_WriteCharacter@character character `uc  1 a 1 29 ]
-"96
+"100
 } 0
-"138
+"142
 [v _Oled_SelectPage Oled_SelectPage `(v  1 e 1 0 ]
 {
 [v Oled_SelectPage@page_num page_num `uc  1 a 1 wreg ]
-"139
+"143
 [v Oled_SelectPage@Result Result `uc  1 a 1 26 ]
-"138
+"142
 [v Oled_SelectPage@page_num page_num `uc  1 a 1 wreg ]
 [v Oled_SelectPage@page_num page_num `uc  1 a 1 25 ]
-"143
+"147
 } 0
-"55
+"59
 [v _Oled_Init Oled_Init `(v  1 e 1 0 ]
 {
-"83
+"87
 } 0
-"29
+"33
 [v _Oled_Command Oled_Command `(v  1 e 1 0 ]
 {
 [v Oled_Command@command command `uc  1 a 1 wreg ]
-"30
+"34
 [v Oled_Command@data_I2C data_I2C `[2]uc  1 a 2 23 ]
-"29
+"33
 [v Oled_Command@command command `uc  1 a 1 wreg ]
-"32
+"36
 [v Oled_Command@command command `uc  1 a 1 22 ]
-"38
+"42
 } 0
-"105
+"109
 [v _Oled_Clear Oled_Clear `(v  1 e 1 0 ]
 {
-"106
+"110
 [v Oled_Clear@i i `i  1 a 2 25 ]
-"112
+"116
 } 0
-"42
+"46
 [v _Oled_Data Oled_Data `(v  1 e 1 0 ]
 {
 [v Oled_Data@value value `uc  1 a 1 wreg ]
-"43
+"47
 [v Oled_Data@data_I2C data_I2C `[2]uc  1 a 2 23 ]
-"42
+"46
 [v Oled_Data@value value `uc  1 a 1 wreg ]
-"45
+"49
 [v Oled_Data@value value `uc  1 a 1 22 ]
-"51
+"55
 } 0
-"111 C:\Users\diogo\Downloads\PIC18F26K80_OLED-main\mcc_generated_files/examples/i2c_master_example.c
+"111 C:\Users\D1NG0\Desktop\PIC18F26K80_OLED-main\mcc_generated_files/examples/i2c_master_example.c
 [v _I2C_WriteNBytes I2C_WriteNBytes `(v  1 e 1 0 ]
 {
 [v I2C_WriteNBytes@address address `uc  1 a 1 wreg ]
@@ -1150,19 +1161,19 @@ I2C_NULL 5
 [v I2C_WriteNBytes@address address `uc  1 a 1 21 ]
 "118
 } 0
-"283 C:\Users\diogo\Downloads\PIC18F26K80_OLED-main\mcc_generated_files/i2c_master.c
+"283 C:\Users\D1NG0\Desktop\PIC18F26K80_OLED-main\mcc_generated_files/i2c_master.c
 [v _I2C_SetAddressNackCallback I2C_SetAddressNackCallback `(v  1 e 1 0 ]
 {
-[v I2C_SetAddressNackCallback@cb cb `*.37(E358  1 p 2 5 ]
+[v I2C_SetAddressNackCallback@cb cb `*.37(E360  1 p 2 5 ]
 [v I2C_SetAddressNackCallback@ptr ptr `*.2v  1 p 2 7 ]
 "286
 } 0
 "176
-[v _I2C_Open I2C_Open `(E353  1 e 1 0 ]
+[v _I2C_Open I2C_Open `(E355  1 e 1 0 ]
 {
 [v I2C_Open@address address `uc  1 a 1 wreg ]
 "178
-[v I2C_Open@returnValue returnValue `E353  1 a 1 1 ]
+[v I2C_Open@returnValue returnValue `E355  1 a 1 1 ]
 "176
 [v I2C_Open@address address `uc  1 a 1 wreg ]
 "178
@@ -1175,16 +1186,16 @@ I2C_NULL 5
 "555
 } 0
 "251
-[v _I2C_MasterWrite I2C_MasterWrite `(E353  1 e 1 0 ]
+[v _I2C_MasterWrite I2C_MasterWrite `(E355  1 e 1 0 ]
 {
 "254
 } 0
 "224
-[v _I2C_MasterOperation I2C_MasterOperation `(E353  1 e 1 0 ]
+[v _I2C_MasterOperation I2C_MasterOperation `(E355  1 e 1 0 ]
 {
 [v I2C_MasterOperation@read read `a  1 a 1 wreg ]
 "226
-[v I2C_MasterOperation@returnValue returnValue `E353  1 a 1 16 ]
+[v I2C_MasterOperation@returnValue returnValue `E355  1 a 1 16 ]
 "224
 [v I2C_MasterOperation@read read `a  1 a 1 wreg ]
 "226
@@ -1207,82 +1218,82 @@ I2C_NULL 5
 "330
 } 0
 "500
-[v _I2C_DO_ADDRESS_NACK I2C_DO_ADDRESS_NACK `(E12575  1 s 1 I2C_DO_ADDRESS_NACK ]
+[v _I2C_DO_ADDRESS_NACK I2C_DO_ADDRESS_NACK `(E12577  1 s 1 I2C_DO_ADDRESS_NACK ]
 {
 "512
 } 0
 "494
-[v _I2C_DO_RESET I2C_DO_RESET `(E12575  1 s 1 I2C_DO_RESET ]
+[v _I2C_DO_RESET I2C_DO_RESET `(E12577  1 s 1 I2C_DO_RESET ]
 {
 "499
 } 0
 "488
-[v _I2C_DO_RX_NACK_RESTART I2C_DO_RX_NACK_RESTART `(E12575  1 s 1 I2C_DO_RX_NACK_RESTART ]
+[v _I2C_DO_RX_NACK_RESTART I2C_DO_RX_NACK_RESTART `(E12577  1 s 1 I2C_DO_RX_NACK_RESTART ]
 {
 "492
 } 0
 "482
-[v _I2C_DO_RX_NACK_STOP I2C_DO_RX_NACK_STOP `(E12575  1 s 1 I2C_DO_RX_NACK_STOP ]
+[v _I2C_DO_RX_NACK_STOP I2C_DO_RX_NACK_STOP `(E12577  1 s 1 I2C_DO_RX_NACK_STOP ]
 {
 "486
 } 0
 "475
-[v _I2C_DO_RX_ACK I2C_DO_RX_ACK `(E12575  1 s 1 I2C_DO_RX_ACK ]
+[v _I2C_DO_RX_ACK I2C_DO_RX_ACK `(E12577  1 s 1 I2C_DO_RX_ACK ]
 {
 "479
 } 0
 "469
-[v _I2C_DO_SEND_STOP I2C_DO_SEND_STOP `(E12575  1 s 1 I2C_DO_SEND_STOP ]
+[v _I2C_DO_SEND_STOP I2C_DO_SEND_STOP `(E12577  1 s 1 I2C_DO_SEND_STOP ]
 {
 "473
 } 0
 "463
-[v _I2C_DO_SEND_RESTART I2C_DO_SEND_RESTART `(E12575  1 s 1 I2C_DO_SEND_RESTART ]
+[v _I2C_DO_SEND_RESTART I2C_DO_SEND_RESTART `(E12577  1 s 1 I2C_DO_SEND_RESTART ]
 {
 "467
 } 0
 "456
-[v _I2C_DO_SEND_RESTART_WRITE I2C_DO_SEND_RESTART_WRITE `(E12575  1 s 1 I2C_DO_SEND_RESTART_WRITE ]
+[v _I2C_DO_SEND_RESTART_WRITE I2C_DO_SEND_RESTART_WRITE `(E12577  1 s 1 I2C_DO_SEND_RESTART_WRITE ]
 {
 "460
 } 0
 "450
-[v _I2C_DO_SEND_RESTART_READ I2C_DO_SEND_RESTART_READ `(E12575  1 s 1 I2C_DO_SEND_RESTART_READ ]
+[v _I2C_DO_SEND_RESTART_READ I2C_DO_SEND_RESTART_READ `(E12577  1 s 1 I2C_DO_SEND_RESTART_READ ]
 {
 "454
 } 0
 "402
-[v _I2C_DO_RCEN I2C_DO_RCEN `(E12575  1 s 1 I2C_DO_RCEN ]
+[v _I2C_DO_RCEN I2C_DO_RCEN `(E12577  1 s 1 I2C_DO_RCEN ]
 {
 "407
 } 0
 "378
-[v _I2C_DO_RX I2C_DO_RX `(E12575  1 s 1 I2C_DO_RX ]
+[v _I2C_DO_RX I2C_DO_RX `(E12577  1 s 1 I2C_DO_RX ]
 {
 "400
 } 0
 "354
-[v _I2C_DO_TX I2C_DO_TX `(E12575  1 s 1 I2C_DO_TX ]
+[v _I2C_DO_TX I2C_DO_TX `(E12577  1 s 1 I2C_DO_TX ]
 {
 "376
 } 0
 "347
-[v _I2C_DO_SEND_ADR_WRITE I2C_DO_SEND_ADR_WRITE `(E12575  1 s 1 I2C_DO_SEND_ADR_WRITE ]
+[v _I2C_DO_SEND_ADR_WRITE I2C_DO_SEND_ADR_WRITE `(E12577  1 s 1 I2C_DO_SEND_ADR_WRITE ]
 {
 "352
 } 0
 "340
-[v _I2C_DO_SEND_ADR_READ I2C_DO_SEND_ADR_READ `(E12575  1 s 1 I2C_DO_SEND_ADR_READ ]
+[v _I2C_DO_SEND_ADR_READ I2C_DO_SEND_ADR_READ `(E12577  1 s 1 I2C_DO_SEND_ADR_READ ]
 {
 "345
 } 0
 "333
-[v _I2C_DO_IDLE I2C_DO_IDLE `(E12575  1 s 1 I2C_DO_IDLE ]
+[v _I2C_DO_IDLE I2C_DO_IDLE `(E12577  1 s 1 I2C_DO_IDLE ]
 {
 "338
 } 0
 "409
-[v _I2C_DO_TX_EMPTY I2C_DO_TX_EMPTY `(E12575  1 s 1 I2C_DO_TX_EMPTY ]
+[v _I2C_DO_TX_EMPTY I2C_DO_TX_EMPTY `(E12577  1 s 1 I2C_DO_TX_EMPTY ]
 {
 "424
 } 0
@@ -1326,62 +1337,62 @@ I2C_NULL 5
 "586
 } 0
 "525
-[v _I2C_CallbackReturnReset I2C_CallbackReturnReset `(E358  1 e 1 0 ]
+[v _I2C_CallbackReturnReset I2C_CallbackReturnReset `(E360  1 e 1 0 ]
 {
 [v I2C_CallbackReturnReset@funPtr funPtr `*.39v  1 p 2 9 ]
 "528
 } 0
 "520
-[v _I2C_CallbackReturnStop I2C_CallbackReturnStop `(E358  1 e 1 0 ]
+[v _I2C_CallbackReturnStop I2C_CallbackReturnStop `(E360  1 e 1 0 ]
 {
 "523
 } 0
-"170 C:\Users\diogo\Downloads\PIC18F26K80_OLED-main\mcc_generated_files/examples/i2c_master_example.c
-[v _rdBlkRegCompleteHandler rdBlkRegCompleteHandler `(E358  1 s 1 rdBlkRegCompleteHandler ]
+"170 C:\Users\D1NG0\Desktop\PIC18F26K80_OLED-main\mcc_generated_files/examples/i2c_master_example.c
+[v _rdBlkRegCompleteHandler rdBlkRegCompleteHandler `(E360  1 s 1 rdBlkRegCompleteHandler ]
 {
 [v rdBlkRegCompleteHandler@ptr ptr `*.39v  1 p 2 9 ]
 "175
 } 0
 "156
-[v _wr1RegCompleteHandler wr1RegCompleteHandler `(E358  1 s 1 wr1RegCompleteHandler ]
+[v _wr1RegCompleteHandler wr1RegCompleteHandler `(E360  1 s 1 wr1RegCompleteHandler ]
 {
 [v wr1RegCompleteHandler@ptr ptr `*.39v  1 p 2 9 ]
 "161
 } 0
 "149
-[v _rd2RegCompleteHandler rd2RegCompleteHandler `(E358  1 s 1 rd2RegCompleteHandler ]
+[v _rd2RegCompleteHandler rd2RegCompleteHandler `(E360  1 s 1 rd2RegCompleteHandler ]
 {
 [v rd2RegCompleteHandler@ptr ptr `*.39v  1 p 2 9 ]
 "154
 } 0
 "142
-[v _rd1RegCompleteHandler rd1RegCompleteHandler `(E358  1 s 1 rd1RegCompleteHandler ]
+[v _rd1RegCompleteHandler rd1RegCompleteHandler `(E360  1 s 1 rd1RegCompleteHandler ]
 {
 [v rd1RegCompleteHandler@ptr ptr `*.39v  1 p 2 9 ]
 "147
 } 0
 "163
-[v _wr2RegCompleteHandler wr2RegCompleteHandler `(E358  1 s 1 wr2RegCompleteHandler ]
+[v _wr2RegCompleteHandler wr2RegCompleteHandler `(E360  1 s 1 wr2RegCompleteHandler ]
 {
 [v wr2RegCompleteHandler@ptr ptr `*.39v  1 p 2 9 ]
 "168
 } 0
-"273 C:\Users\diogo\Downloads\PIC18F26K80_OLED-main\mcc_generated_files/i2c_master.c
+"273 C:\Users\D1NG0\Desktop\PIC18F26K80_OLED-main\mcc_generated_files/i2c_master.c
 [v _I2C_SetDataCompleteCallback I2C_SetDataCompleteCallback `(v  1 e 1 0 ]
 {
-[v I2C_SetDataCompleteCallback@cb cb `*.37(E358  1 p 2 5 ]
+[v I2C_SetDataCompleteCallback@cb cb `*.37(E360  1 p 2 5 ]
 [v I2C_SetDataCompleteCallback@ptr ptr `*.39v  1 p 2 7 ]
 "276
 } 0
 "298
 [v _I2C_SetCallback I2C_SetCallback `(v  1 s 1 I2C_SetCallback ]
 {
-[v I2C_SetCallback@idx idx `E12593  1 a 1 wreg ]
-[v I2C_SetCallback@idx idx `E12593  1 a 1 wreg ]
-[v I2C_SetCallback@cb cb `*.37(E358  1 p 2 0 ]
+[v I2C_SetCallback@idx idx `E12595  1 a 1 wreg ]
+[v I2C_SetCallback@idx idx `E12595  1 a 1 wreg ]
+[v I2C_SetCallback@cb cb `*.37(E360  1 p 2 0 ]
 [v I2C_SetCallback@ptr ptr `*.39v  1 p 2 2 ]
 "300
-[v I2C_SetCallback@idx idx `E12593  1 a 1 4 ]
+[v I2C_SetCallback@idx idx `E12595  1 a 1 4 ]
 "310
 } 0
 "263
@@ -1407,10 +1418,10 @@ I2C_NULL 5
 "591
 } 0
 "209
-[v _I2C_Close I2C_Close `(E353  1 e 1 0 ]
+[v _I2C_Close I2C_Close `(E355  1 e 1 0 ]
 {
 "211
-[v I2C_Close@returnValue returnValue `E353  1 a 1 0 ]
+[v I2C_Close@returnValue returnValue `E355  1 a 1 0 ]
 "222
 } 0
 "635
@@ -1428,13 +1439,13 @@ I2C_NULL 5
 {
 "643
 } 0
-"118 C:\Users\diogo\Downloads\PIC18F26K80_OLED-main\INA260.c
+"118 C:\Users\D1NG0\Desktop\PIC18F26K80_OLED-main\INA260.c
 [v _I2C_Master_Init I2C_Master_Init `(v  1 e 1 0 ]
 {
 [v I2C_Master_Init@c c `Cul  1 p 4 13 ]
 "126
 } 0
-"7 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\__lldiv.c
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\__lldiv.c
 [v ___lldiv __lldiv `(ul  1 e 4 0 ]
 {
 "10
@@ -1446,12 +1457,12 @@ I2C_NULL 5
 [v ___lldiv@divisor divisor `ul  1 p 4 4 ]
 "30
 } 0
-"167 C:\Users\diogo\Downloads\PIC18F26K80_OLED-main\mcc_generated_files/i2c_master.c
+"167 C:\Users\D1NG0\Desktop\PIC18F26K80_OLED-main\mcc_generated_files/i2c_master.c
 [v _I2C_Initialize I2C_Initialize `(v  1 e 1 0 ]
 {
 "174
 } 0
-"46 C:\Users\diogo\Downloads\PIC18F26K80_OLED-main\INA260.c
+"46 C:\Users\D1NG0\Desktop\PIC18F26K80_OLED-main\INA260.c
 [v _Current_ReadRegister Current_ReadRegister `(f  1 e 4 0 ]
 {
 "53
@@ -1460,7 +1471,7 @@ I2C_NULL 5
 [v Current_ReadRegister@temp_c temp_c `uc  1 a 1 53 ]
 "60
 } 0
-"10 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\xxtofl.c
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\xxtofl.c
 [v ___xxtofl __xxtofl `(d  1 e 4 0 ]
 {
 [v ___xxtofl@sign sign `uc  1 a 1 wreg ]
@@ -1475,20 +1486,20 @@ I2C_NULL 5
 [v ___xxtofl@sign sign `uc  1 a 1 14 ]
 "44
 } 0
-"8 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\sprcmul.c
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
 [v ___flmul __flmul `(d  1 e 4 0 ]
 {
-[s S1894 . 4 `uc 1 a 1 0 `uc 1 b 1 1 `uc 1 c 1 2 `uc 1 d 1 3 ]
+[s S1920 . 4 `uc 1 a 1 0 `uc 1 b 1 1 `uc 1 c 1 2 `uc 1 d 1 3 ]
 "13
-[s S1899 . 4 `s 1 wordA 2 0 `s 1 wordB 2 2 ]
-[u S1902 . 4 `l 1 i 4 0 `d 1 f 4 0 `S1894 1 fAsBytes 4 0 `S1899 1 fAsWords 4 0 ]
-[v ___flmul@prod prod `S1902  1 a 4 39 ]
+[s S1925 . 4 `s 1 wordA 2 0 `s 1 wordB 2 2 ]
+[u S1928 . 4 `l 1 i 4 0 `d 1 f 4 0 `S1920 1 fAsBytes 4 0 `S1925 1 fAsWords 4 0 ]
+[v ___flmul@prod prod `S1928  1 a 4 39 ]
 "12
 [v ___flmul@grs grs `ul  1 a 4 33 ]
-[s S1970 . 2 `uc 1 a 1 0 `uc 1 b 1 1 ]
+[s S1996 . 2 `uc 1 a 1 0 `uc 1 b 1 1 ]
 "14
-[u S1973 . 2 `s 1 i 2 0 `us 1 n 2 0 `S1970 1 nAsBytes 2 0 ]
-[v ___flmul@temp temp `S1973  1 a 2 43 ]
+[u S1999 . 2 `s 1 i 2 0 `us 1 n 2 0 `S1996 1 nAsBytes 2 0 ]
+[v ___flmul@temp temp `S1999  1 a 2 43 ]
 "10
 [v ___flmul@bexp bexp `uc  1 a 1 38 ]
 "11
@@ -1500,7 +1511,7 @@ I2C_NULL 5
 [v ___flmul@a a `d  1 p 4 24 ]
 "205
 } 0
-"11 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\sprcdiv.c
+"11 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcdiv.c
 [v ___fldiv __fldiv `(d  1 e 4 0 ]
 {
 "21
@@ -1520,7 +1531,7 @@ I2C_NULL 5
 [v ___fldiv@a a `d  1 p 4 4 ]
 "185
 } 0
-"100 C:\Users\diogo\Downloads\PIC18F26K80_OLED-main\INA260.c
+"100 C:\Users\D1NG0\Desktop\PIC18F26K80_OLED-main\INA260.c
 [v _I2C_Master_Write I2C_Master_Write `(v  1 e 1 0 ]
 {
 [v I2C_Master_Write@d d `ui  1 p 2 1 ]

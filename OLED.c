@@ -16,6 +16,10 @@
 #include "OLED.h"         
 #include "font.h"
 
+#define SSD1306_BUFFER_SIZE   SSD1306_LCDWIDTH * SSD1306_LCDHEIGHT / 8
+static uint8_t SSD1306_Buffer[SSD1306_BUFFER_SIZE];
+static uint8_t buffer[SSD1306_BUFFER_SIZE];
+
 void msDelay(uint8_t ms) {
     uint8_t k;
 
@@ -140,4 +144,123 @@ void Oled_SelectPage(uint8_t page_num) {
     Oled_Command(Result);
     Oled_Command(SSD1306_SET_LOWER_COLUMN);
     Oled_Command(SSD1306_SET_HIGHER_COLUMN);
+}
+
+
+/*void drawBitmap(int16_t x, int16_t y, uint8_t *bitmap, int16_t w, int16_t h, uint16_t color, uint16_t bg)
+{
+
+    Oled_Clear();		//Clear the screen
+
+	int16_t byteWidth = (w + 7) / 8; // Bitmap scanline pad = whole byte
+	uint8_t byte = 0;
+
+	//Height
+	for (int16_t j = 0; j < h; j++, y++)
+	{
+		//Width
+		for (int16_t i = 0; i < w; i++)
+		{
+				byte = bitmap[j * byteWidth + i / 8];		// Row/Col of byte
+
+				for (int8_t cnt = 0; cnt < 8; cnt ++)
+				{
+					//Shift left to right through byte to get each bit if the return val > 0, there is a 1 in that space.
+					if ( (byte & (0x80 >> cnt)) == 0)
+					{
+						//  If 0, Background
+						OLED_DrawPixel( x + i + cnt, y, bg);
+					}
+					else
+					{
+						//if not 0, Pixel Color
+						OLED_DrawPixel( x + i + cnt, y, color );
+					}
+				}
+				// Increment x-pos by 1 byte
+				i = i + 7;
+			}
+		}
+
+	  ssd1306_UpdateScreen();
+	  return;
+
+}*/
+
+
+void OLEDWriteLargeCharacter( char character){
+    unsigned char i;                                                 //Set character position
+    for(i=0; i<11; i++){
+    //LcdWriteData(&(Terminal11x16[z-0x20][2*i]));  //Read font array from PROGMEM and display top half of character
+        Oled_Data(character - 32);
+    //LcdWriteData((Terminal11x16[z-0x20][2*i]));  //Read font array from PROGMEM and display top half of character
+    }Oled_Data(0x00);
+                                            //Set position with y position set lower to display bottom half of character
+    for(i=0; i<11; i++){
+    //LcdWriteData(&(Terminal11x16[z-0x20][(2*i)+1])); //Read font array from PROGMEM and display bottom half of character
+        Oled_Data(character - 32); //Read font array from PROGMEM and display bottom half of character
+    }Oled_Data(0x00);
+}
+
+void OLEDWriteLargeString(char *characters){     
+    while(*characters){      
+        OLEDWriteLargeCharacter(*characters++);     //Advance location for the next character by character width amount plus padding
+    }  
+}
+
+void ssd1306_DrawPixel(uint8_t x, uint8_t y, SSD1306_COLOR color) {
+    if(x >= SSD1306_LCDWIDTH || y >= SSD1306_LCDHEIGHT) {
+        // Don't write outside the buffer
+        return;
+    }
+    
+    // Check if pixel should be inverted
+    /*if(SSD1306.Inverted) {
+        color = (SSD1306_COLOR)!color;
+    }*/
+    
+    // Draw in the right color
+    if(color == White) {
+        SSD1306_Buffer[x + (y / 8) * SSD1306_LCDWIDTH] |= 1 << (y % 8);
+    } else { 
+        SSD1306_Buffer[x + (y / 8) * SSD1306_LCDWIDTH] &= ~(1 << (y % 8));
+    }
+}
+
+void ssd1306_UpdateScreen(void) {
+    // Write data to each page of RAM. Number of pages
+    // depends on the screen height:
+    //
+    //  * 32px   ==  4 pages
+    //  * 64px   ==  8 pages
+    //  * 128px  ==  16 pages
+    for(uint8_t i = 0; i < SSD1306_LCDHEIGHT/8; i++) {
+        Oled_Command(0xB0 + i); // Set the current RAM page address.
+        Oled_Command(0x00);
+        Oled_Command(0x10);
+        Oled_Data(&SSD1306_Buffer[SSD1306_LCDWIDTH*i]);
+    }
+}
+
+void OLED_DrawPixel( int16_t x, int16_t y, uint8_t color)
+{
+  
+   // if ( (x < 0) || (x >= SSD1306_LCDWIDTH()) || (y < 0) || (y >= SSD1306_LCDHEIGHT()))
+    //return;
+
+  switch (color)
+  {
+    case 1:   buffer[x+ (y/8)*SSD1306_LCDWIDTH] |=  (1 << (y&7)); break;
+    case 2:   buffer[x+ (y/8)*SSD1306_LCDWIDTH] &= ~(1 << (y&7)); break;
+    case 3: buffer[x+ (y/8)*SSD1306_LCDWIDTH] ^=  (1 << (y&7)); break;
+  }
+}
+
+void OLED_Image( const uint8_t *image)
+{
+  uint16_t i;
+  for( i=0; i<(SSD1306_LCDWIDTH*SSD1306_LCDHEIGHT/8); i++)
+  {
+    buffer[i] = *(image+i);
+  }
 }

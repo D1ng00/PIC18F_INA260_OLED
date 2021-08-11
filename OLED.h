@@ -13,6 +13,7 @@
 */
 
 #include "mcc_generated_files/examples/i2c_master_example.h"
+#include "INA260.h"
 
 #ifndef OLED_H
 #define OLED_H
@@ -34,6 +35,10 @@
 #define SSD1306_LCDHEIGHT                 64
 #define SSD1306_CLEAR_SIZE                1024
 
+typedef enum {
+    Black = 0x00, // Black color, no pixel
+    White = 0x01  // Pixel is set. Color depends on OLED
+} SSD1306_COLOR;
 
 #define SSD1306_COMMAND                     0x00
 #define SSD1306_DATA                        0xC0
@@ -67,6 +72,7 @@
 #define SSD1306_SET_COLUMN_ADDR                         0x21
 #define SSD1306_SET_PAGE_ADDR                           0x22
 
+
 // Hardware Configuration Commands
 #define SSD1306_SET_START_LINE                          0x40
 #define SSD1306_SET_SEGMENT_REMAP                       0xA0
@@ -95,5 +101,11 @@ void Oled_WriteCharacter(char character);
 void Oled_Clear(void);
 void Oled_SelectPage(uint8_t );
 void Oled_ClearLine(uint8_t);
-
+void drawBitmap(int16_t x, int16_t y, uint8_t *bitmap, int16_t w, int16_t h, uint16_t color, uint16_t bg);
+void ssd1306_DrawPixel(uint8_t x, uint8_t y, SSD1306_COLOR color);
+void ssd1306_UpdateScreen(void);
+void OLED_DrawPixel( int16_t x, int16_t y, uint8_t color);
+void OLED_Image( const uint8_t *image);
+void OLEDWriteLargeCharacter( char character);
+void OLEDWriteLargeString(char *characters);
 #endif
